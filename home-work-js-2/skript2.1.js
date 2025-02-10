@@ -42,38 +42,38 @@ console.log(book3)
 
 // 3
 
-let book111 = {
+let book111 = [
   title: 'three hundred poetry',
   pageCount: 432,
   genre: 'Collections of modern poets',
-  autor: [
+  autor: {
     name = 'Lina Kostenko',
     age = 94,
 
 
-  ]
+      }
 
-}
+]
 
-let book222 = {
+let book222 = [
   title: 'kingdom of the damned',
   pageCount: 480,
   genre: 'Books of the genre Fantasy. fantasy Horrors',
-  autor: [
+  autor: {
     name = 'Tricia Copeland',
     age = 55,
-  ]
-}
+      }
+]
 
-let book333 = {
+let book333 = [
   title: 'Oppenheimer',
   pageCount: 784,
   genre: 'Social science books',
-  autor: [
+  autor: {
     name = 'Kai Bird, Martin Sherwin',
     age = 73,
-  ]
-}
+  }
+]
 
 
 console.log(book111.autor)
